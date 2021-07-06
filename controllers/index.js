@@ -5,6 +5,8 @@ const FileController = require("./FileController");
 const ContactController = require("./ContactController");
 const ProductController = require("./ProductController");
 const CartItemController = require("./CartItemController");
+const TenantController = require("./TenantController");
+
 
 
 
@@ -16,4 +18,5 @@ module.exports = {
   ContactController,
   ProductController,
   CartItemController,
+  TenantController,
 };

@@ -11,5 +11,6 @@ router.use(require("./FileRoutes"));
 router.use(require("./ContactRoutes"));
 router.use(require("./ProductRoutes"));
 router.use(require("./CartItemRoutes"));
+router.use(require("./TenantRoutes"));
 
 module.exports = router;

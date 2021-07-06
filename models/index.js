@@ -4,6 +4,7 @@ const Comment = require("./Comment");
 const Contact = require("./Contact");
 const Product = require("./Product");
 const CartItem = require("./CartItem");
+const Tenant = require("./Tenant");
 
 
 module.exports = {
@@ -13,4 +14,5 @@ module.exports = {
   Contact,
   Product,
   CartItem,
+  Tenant,
 };
